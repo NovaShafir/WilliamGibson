@@ -1,0 +1,6 @@
+var menuIcon = document.querySelector('.menu-icon')
+var bodyClass = document.querySelector('body').classList
+menuIcon.addEventListener('click', toggleMenu)
+function toggleMenu() {
+  bodyClass.toggle('nav-active')
+}
